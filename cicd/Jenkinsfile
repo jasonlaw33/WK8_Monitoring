@@ -23,7 +23,7 @@ pipeline {
         EC2StackName    = 'JasonLinuxMachineDeploy'
         EC2Template     = 'LinuxMachineDeploy.yaml'
         InstanceType    = 't2.micro'
-        SecurityGroupID = 'sgr-064b899af1c275c30'
+        SecurityGroupID = 'sg-038714f1e310735ef'
         InstanceCount   = 3
         SecurityPorts   = '[22,443,3000,8080,9100]' //SSH, HTTPS, grafana, cadvisor, node-exporter
         JenkinsServer   = 'jenkins.az.jasonlaw.click'
