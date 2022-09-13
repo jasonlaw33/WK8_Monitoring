@@ -18,9 +18,9 @@ pipeline {
         OwnerEmail      = 'jasonlaw33@hotmail.com' //Change to yours
         S3BucketName    = 'jason-jr8-wk8' //Change to yours, used to save cfn yml files larger than 50KB
         AWS_REGION      = 'ap-southeast-2'
-        VPCStackName    = 'VPCALBStack'
+        VPCStackName    = 'JasonVPCALBStack'
         VPCTemplate     = 'vpc-alb-app-db.yaml'
-        EC2StackName    = 'LinuxMachineDeploy'
+        EC2StackName    = 'JasonLinuxMachineDeploy'
         EC2Template     = 'LinuxMachineDeploy.yaml'
         InstanceType    = 't2.micro'
         SecurityGroupID = 'sg-0bdcae8a706949a99'
